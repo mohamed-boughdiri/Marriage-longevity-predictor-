@@ -43,9 +43,6 @@ Logistic Regression slightly outperforms Random Forest across every metric. The 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn joblib
 ```
-
-Download `marriage_longevity_master.csv` and `data_dictionary.csv` from the [Kaggle dataset page](https://www.kaggle.com/datasets/sergionefedov/marriage-longevity-what-makes-relationships-last) and place them in the project root before running the notebook.
-
 ## Limitations
 
 - Results are based on a single 80/20 train/test split; k-fold cross-validation would give a more robust model comparison.
